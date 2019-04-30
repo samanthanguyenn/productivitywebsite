@@ -1,0 +1,25 @@
+<DOCTYPE html!>
+    <head>
+        <title>productivity</title>
+        <link rel = "Stylesheet" href = "assets/css/style.css">
+        <nav class = "navbar">
+			<div class="navbar">
+                <a href="index.html">home</a>
+                <a href="todo.html">todos</a>
+                <a href="clock.html">productivity</a>
+			</div>
+        </nav>
+     </head>
+    <body>
+        <div id = "todoBox">
+            <h1> todos 
+	            <button class="clearButton">clear</button>
+	            <button class = "prodButton" onclick="window.location.href = 'clock.html';">productivity</button>
+        	</h1>
+            <input type = "text" placeholder="add a todo">
+            <ul class="todoList">
+            </ul>
+        </div>
+	<script src='https://code.jquery.com/jquery-1.11.3.min.js'></script>
+	<script type='text/javascript' src='assets/js/script.js'></script>
+    </body>

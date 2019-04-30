@@ -1,0 +1,146 @@
+body{
+    position: relative;
+    top: 20%;
+    height: 400px;
+	margin: auto;
+	width: 50%;
+    font-family: century gothic; 
+    background: #EDEDFA; 
+
+}
+
+h1{
+    text-transform: uppercase;
+    background: #A8ABF9;
+    color: white;
+    margin: 0;
+    padding: 10px 30px;
+    font-weight: normal;
+}
+input{
+    background: white;
+    border-radius: 25px;
+    width: 90%;
+    box-sizing: border-box;
+	margin: 0;
+	position: absolute;
+	top: 22%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    height:40px ;
+    font-size: 20px;
+    font-weight: 0.5px;
+    padding-left:25px;
+    border: 2px solid #A4A7CD;
+    color: gray;
+}
+input:focus{
+
+    background: #white;
+    border: 2.5px solid #A8ABF9;
+    outline:none;
+    color: solid gray;
+}
+
+button{
+    background-color:#B8B6FE; 
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius:4px;
+    font-family:century gothic;
+    outline:none;
+    margin-left: 15px;
+}
+button:hover {
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    background-color: #EDEDFA;
+    color: black;
+    border: 2px solid #86a8e7;
+}
+
+#buttons{
+    display:inline-block;
+    text-align:center;
+    margin-left:22%;
+    position:absolute;
+    bottom:5px;
+}
+#todoBox{
+    margin:auto ;
+    box-shadow: 0 0 1em black;
+    max-width: 500px;
+    height:100%;
+    background:#FBF1AF;
+    position:relative;
+}
+
+.todoList{
+	background: #FBF1AF;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+}
+
+.todoList li:hover span{
+    width: 50px;
+    margin-left: 4px;
+}
+
+.todoList li{
+    background: #FEF9D9;
+    height:40px;
+    line-height: 40px;
+    font-size: 18px;
+    text-indent: 18px;
+    color: gray;
+}
+.todoList li:nth-child(2n){
+    background:#FBF1AF;
+}
+
+.done{
+    text-decoration:line-through;
+}
+
+.clearButton{
+	float: right;
+	padding-top: 8px;
+}
+
+.prodButton{
+	float: right;
+	padding-top: 8px;
+}
+
+.navbar {
+  background-color: #9795E2;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #8280C7;
+  color: black;
+}
+
+}
